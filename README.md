@@ -61,7 +61,7 @@ I plan to excecute these steps to complete my project.
 - [done] Step 3 involves setting up secure environment variable management (`.env`) for API keys and configuration settings.
 
 ### Phase 2: Data Modeling & Schema Design(this phase takes place in one file so will upload the code after the whole phase is done)
-- [todo] Step 4 involves designing Pydantic models to strictly define the `ConversationState` and `Message` history.
+- [done] Step 4 involves designing Pydantic models to strictly define the `ConversationState` and `Message` history.
 - [TODO] Step 5 involves creating structured output schemas for `InventorySearchRequest` to ensure type-safe tool execution.
 - [TODO] Step 6 involves implementing the `CustomerProfile` schema to track user preferences and budget across the session.
 
