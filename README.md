@@ -63,7 +63,7 @@ I plan to excecute these steps to complete my project.
 ### Phase 2: Data Modeling & Schema Design(this phase takes place in one file so will upload the code after the whole phase is done)
 - [done] Step 4 involves designing Pydantic models to strictly define the `ConversationState` and `Message` history.
 - [done] Step 5 involves creating structured output schemas for `InventorySearchRequest` to ensure type-safe tool execution.
-- [TODO] Step 6 involves implementing the `CustomerProfile` schema to track user preferences and budget across the session.
+- [done] Step 6 involves implementing the `CustomerProfile` schema to track user preferences and budget across the session.
 
 ### Phase 3: The "Brain" (LangGraph Architecture)
 - [TODO] Step 7 involves designing the **StateGraph** architecture, defining the flow between the Reasoning Node and the Tool Node.
