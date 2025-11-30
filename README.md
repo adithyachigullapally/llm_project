@@ -53,9 +53,9 @@ I plan to excecute these steps to complete my project.
 ## 🗺️ Implementation Roadmap
 
 ### Phase 1: Environment & Infrastructure Setup
-- [TODO] Step 1 involves initializing the project repository and defining the modular folder structure (`agents/`, `rag/`, `graph/`).
-- [TODO] Step 2 involves configuring the Python virtual environment and installing core AI dependencies (`LangGraph`, `LangChain`, `OpenAI`).
-- [TODO] Step 3 involves setting up secure environment variable management (`.env`) for API keys and configuration settings.
+- [done] Step 1 involves initializing the project repository and defining the modular folder structure (`agents/`, `rag/`, `graph/`).
+- [done] Step 2 involves configuring the Python virtual environment and installing core AI dependencies (`LangGraph`, `LangChain`, `OpenAI`).
+- [done] Step 3 involves setting up secure environment variable management (`.env`) for API keys and configuration settings.
 
 ### Phase 2: Data Modeling & Schema Design
 - [TODO] Step 4 involves designing Pydantic models to strictly define the `ConversationState` and `Message` history.
