@@ -66,7 +66,7 @@ I plan to excecute these steps to complete my project.
 - [done] Step 6 involves implementing the `CustomerProfile` schema to track user preferences and budget across the session.
 
 ### Phase 3: The "Brain" (LangGraph Architecture)
-- [TODO] Step 7 involves designing the **StateGraph** architecture, defining the flow between the Reasoning Node and the Tool Node.
+- [done] Step 7 involves designing the **StateGraph** architecture, defining the flow between the Reasoning Node and the Tool Node.
 - [TODO] Step 8 involves implementing the **Concierge Node**, which serves as the central reasoning engine for the agent.
 - [TODO] Step 9 involves building the **Cyclic Router Logic** that allows the agent to loop between thinking, searching, and speaking.
 - 
