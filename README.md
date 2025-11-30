@@ -68,7 +68,7 @@ I plan to excecute these steps to complete my project.
 ### Phase 3: The "Brain" (LangGraph Architecture)
 - [done] Step 7 involves designing the **StateGraph** architecture, defining the flow between the Reasoning Node and the Tool Node.
 - [done] Step 8 involves implementing the **Concierge Node**, which serves as the central reasoning engine for the agent.
-- [TODO] Step 9 involves building the **Cyclic Router Logic** that allows the agent to loop between thinking, searching, and speaking.
+- [done] Step 9 involves building the **Cyclic Router Logic** that allows the agent to loop between thinking, searching, and speaking.
 - 
   ### Phase 4: Intelligence & Tooling (RAG)
 - [TODO] Step 10 involves implementing the **Semantic Search Engine** using vector embeddings to understand user intent (e.g., "safe family car").
