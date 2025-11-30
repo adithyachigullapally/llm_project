@@ -21,7 +21,10 @@ The first purpose of the capstone project is to give a chance to revise all the 
 
 
 -------------------------
-
+# Note
+Each phase contains multiple steps and is developed within a single working file.
+I will upload the full code once an entire phase is completed, but I will update the README after every step.
+-------------------------
 # Project report Template
 
 ## Title: CarAstra Agent Network
@@ -57,8 +60,8 @@ I plan to excecute these steps to complete my project.
 - [done] Step 2 involves configuring the Python virtual environment and installing core AI dependencies (`LangGraph`, `LangChain`, `OpenAI`).
 - [done] Step 3 involves setting up secure environment variable management (`.env`) for API keys and configuration settings.
 
-### Phase 2: Data Modeling & Schema Design
-- [TODO] Step 4 involves designing Pydantic models to strictly define the `ConversationState` and `Message` history.
+### Phase 2: Data Modeling & Schema Design(this phase takes place in one file so will upload the code after the whole phase is done)
+- [todo] Step 4 involves designing Pydantic models to strictly define the `ConversationState` and `Message` history.
 - [TODO] Step 5 involves creating structured output schemas for `InventorySearchRequest` to ensure type-safe tool execution.
 - [TODO] Step 6 involves implementing the `CustomerProfile` schema to track user preferences and budget across the session.
 
