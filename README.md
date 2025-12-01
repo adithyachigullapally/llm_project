@@ -80,7 +80,7 @@ I plan to excecute these steps to complete my project.
 - [done] Step 14 involves injecting the **"Personality Engine"** to add humor, wit, and a casual tone to the AI's responses.
 
 ### Phase 6: Voice Interface Integration
-- [TODO] Step 15 involves implementing the **Speech-to-Text (STT)** pipeline using Google Speech Recognition for accurate listening.
+- [done] Step 15 involves implementing the **Speech-to-Text (STT)** pipeline using Google Speech Recognition for accurate listening.
 - [TODO] Step 16 involves implementing the **Text-to-Speech (TTS)** pipeline using `pyttsx3` for natural voice output.
 - [TODO] Step 17 involves synchronizing the Voice I/O loop with the LangGraph processing speed to minimize latency.
 - [TODO]step 18 involves stopping the AI when the user starts speaking.
