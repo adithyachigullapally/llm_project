@@ -71,7 +71,7 @@ I plan to excecute these steps to complete my project.
 - [done] Step 9 involves building the **Cyclic Router Logic** that allows the agent to loop between thinking, searching, and speaking.
 - 
   ### Phase 4: Intelligence & Tooling (RAG)
-- [TODO] Step 10 involves implementing the **Semantic Search Engine** using vector embeddings to understand user intent (e.g., "safe family car").
+- [done] Step 10 involves implementing the **Semantic Search Engine** using vector embeddings to understand user intent (e.g., "safe family car").
 - [TODO] Step 11 involves integrating the **Web Search Tool** (`duckduckgo-search`) to enable real-time fetching of global car prices and specs.
 - [TODO] Step 12 involves binding the Python tools to the LLM, giving the agent the autonomous ability to "pause and search" the internet.
 
