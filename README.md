@@ -77,7 +77,7 @@ I plan to excecute these steps to complete my project.
 
 ### Phase 5: Persona & Prompt Engineering
 - [done] Step 13 involves engineering the `GLOBAL_EXPERT_PROMPT` to enforce constraints (e.g., "Never guess prices").
-- [TODO] Step 14 involves injecting the **"Personality Engine"** to add humor, wit, and a casual tone to the AI's responses.
+- [done] Step 14 involves injecting the **"Personality Engine"** to add humor, wit, and a casual tone to the AI's responses.
 
 ### Phase 6: Voice Interface Integration
 - [TODO] Step 15 involves implementing the **Speech-to-Text (STT)** pipeline using Google Speech Recognition for accurate listening.
