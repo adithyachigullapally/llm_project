@@ -76,7 +76,7 @@ I plan to excecute these steps to complete my project.
 - [done] Step 12 involves binding the Python tools to the LLM, giving the agent the autonomous ability to "pause and search" the internet.
 
 ### Phase 5: Persona & Prompt Engineering
-- [TODO] Step 13 involves engineering the `GLOBAL_EXPERT_PROMPT` to enforce constraints (e.g., "Never guess prices").
+- [done] Step 13 involves engineering the `GLOBAL_EXPERT_PROMPT` to enforce constraints (e.g., "Never guess prices").
 - [TODO] Step 14 involves injecting the **"Personality Engine"** to add humor, wit, and a casual tone to the AI's responses.
 
 ### Phase 6: Voice Interface Integration
