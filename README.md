@@ -72,8 +72,8 @@ I plan to excecute these steps to complete my project.
 - 
   ### Phase 4: Intelligence & Tooling (RAG)
 - [done] Step 10 involves implementing the **Semantic Search Engine** using vector embeddings to understand user intent (e.g., "safe family car").
-- [TODO] Step 11 involves integrating the **Web Search Tool** (`duckduckgo-search`) to enable real-time fetching of global car prices and specs.
-- [TODO] Step 12 involves binding the Python tools to the LLM, giving the agent the autonomous ability to "pause and search" the internet.
+- [done] Step 11 involves integrating the **Web Search Tool** (`duckduckgo-search`) to enable real-time fetching of global car prices and specs.
+- [done] Step 12 involves binding the Python tools to the LLM, giving the agent the autonomous ability to "pause and search" the internet.
 
 ### Phase 5: Persona & Prompt Engineering
 - [TODO] Step 13 involves engineering the `GLOBAL_EXPERT_PROMPT` to enforce constraints (e.g., "Never guess prices").
