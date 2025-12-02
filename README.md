@@ -61,13 +61,7 @@ chose this project to go beyond static chatbots and build a humorous, active Voi
 - [done] Step 17 involves synchronizing the Voice I/O loop with the LangGraph processing speed to minimize latency.
 - [done]step 18 involves stopping the AI when the user starts speaking.
 
-  ### Phase 7: Visualization & Deployment (LangSmith)
-- [TODO] Step 19 involves creating the `langgraph.json` configuration file to define the graph entry point and dependencies.
-- [TODO] Step 20 involves setting up **LangSmith Tracing** to log all agent steps, tool calls, and errors for debugging.
-- [TODO] Step 21 involves launching the **LangGraph Studio** using the `langgraph dev` command to visualize the agent's graph and interact with it in a GUI.
-- [TODO] Step 22 involves conducting final edge-case testing and finalizing the project documentation.
-
-
+-[done]step 19: deployment of graph in langgrpah studio so user can give manual inputs and can add interupts if needed and check the working .
 
 more steps will bee added as i go on and solve it....
 
