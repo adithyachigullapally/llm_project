@@ -1,10 +1,4 @@
 
--------------------------
-# Note
-Each phase contains multiple steps and is developed within a single working file.
-I will upload the full code once an entire phase is completed, but I will update the README after every step.
--------------------------
-# Project report Template
 
 ## Title: CarAstra Agent Network
 
@@ -28,7 +22,15 @@ parallelization:I implemented parallelization specifically for vehicle compariso
 
 
 chose this project to go beyond static chatbots and build a humorous, active Voice-AI that actually "thinks" and searches the live web. My main goal was to prove that LangGraph is the future of voice assistants. I wanted to demonstrate that graph-based agents handle complex reasoning and memory much better than old linear models. Although this is just a prototype, it successfully provided a strong foundation for what intelligent, voice-controlled systems can become in the future.
+-------------------------
+# Note
 
+Each phase contains multiple steps and is developed within a single working file.
+I will upload the full code once an entire phase is completed, but I will be updating  the README after every step.
+
+-------------------------
+
+# Project report Template
 ## Plan
 
 ### Phase 1: Environment & Infrastructure Setup
@@ -67,3 +69,18 @@ more steps will bee added as i go on and solve it....
 
 
 ## Conclusion:
+In conclusion, CarAstra demonstrates itself as a capable AI agent that keeps interactions engaging while effectively completing the required tasks. I am satisfied with most aspects of its performance—its responses are smooth, accurate, and consistent. One limitation I noticed is a slight delay of about 2–3 seconds before it begins speaking when reading out longer outputs. Although this pause doesn’t affect overall functionality, reducing it would make the experience feel even more natural. Despite this minor issue, I am pleased with what I built and confident that CarAstra provides a strong foundation for future improvements.
+
+-------------------------
+
+# video Explanation of my project  
+https://drive.google.com/file/d/1ERNGXvUcb6xNGhwFJBI2jfPhHiPuL3da/view?usp=sharing
+
+
+-------------------------
+#Tracing 
+<img width="1869" height="998" alt="image" src="https://github.com/user-attachments/assets/e2f367e6-81e8-47d3-883e-03dcf52d8286" />
+
+
+
+
