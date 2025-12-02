@@ -1,0 +1,9 @@
+{
+    "python_version": "3.11",
+    "dockerfile_lines": [],
+    "dependencies": ["."],
+    "graphs": {
+        "car_concierge": "./graph/multi_agent_graph.py:get_multi_agent_app"
+    },
+    "env": ".env"
+}

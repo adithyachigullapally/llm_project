@@ -1,0 +1,41 @@
+# === Core AI Framework ===
+langgraph>=0.2.27
+langchain>=0.2.16
+langchain-openai>=0.1.23
+langchain-community>=0.2.16
+langchain-core>=0.2.39
+
+# === RAG & Vector Database (Memory) ===
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+
+# === Voice & Audio (Ears & Mouth) ===
+SpeechRecognition
+pyttsx3
+pyaudio
+pygame
+
+# === Web Search (Tools) ===
+duckduckgo-search
+
+# === Utilities & Data ===
+pydantic>=2.5.0
+pydantic-settings>=2.0.3
+python-dotenv>=1.0.0
+numpy>=1.24.3
+pandas>=2.1.3
+tqdm>=4.66.1
+keyboard
+
+# === OpenAI SDK (Brain) ===
+openai>=1.3.0
+
+# === Visualization ===
+matplotlib>=3.7.1
+##for stduio deployment
+langgraph-cli
+langgraph-cli[inmem]
+### How to Install:
+Run this command in your terminal:
+```bash
+pip install -r requirements.txt
