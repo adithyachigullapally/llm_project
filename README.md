@@ -1,24 +1,5 @@
 Template for creating and submitting MAT496 capstone project.
 
-# Overview of MAT496
-
-In this course, we have primarily learned Langgraph. This is helpful tool to build apps which can process unstructured `text`, find information we are looking for, and present the format we choose. Some specific topics we have covered are:
-
-- Prompting
-- Structured Output 
-- Semantic Search
-- Retreaval Augmented Generation (RAG)
-- Tool calling LLMs & MCP
-- Langgraph: State, Nodes, Graph
-
-We also learned that Langsmith is a nice tool for debugging Langgraph codes.
-
-------
-
-# Capstone Project objective
-
-The first purpose of the capstone project is to give a chance to revise all the major above listed topics. The second purpose of the capstone is to show your creativity. Think about all the problems which you can not have solved earlier, but are not possible to solve with the concepts learned in this course. For example, We can use LLM to analyse all kinds of news: sports news, financial news, political news. Another example, we can use LLMs to build a legal assistant. Pretty much anything which requires lots of reading, can be outsourced to LLMs. Let your imagination run free.
-
 
 -------------------------
 # Note
@@ -30,10 +11,9 @@ I will upload the full code once an entire phase is completed, but I will update
 ## Title: CarAstra Agent Network
 
 ## Overview
-Overview: "AutoMate" is a voice-activated Agentic AI designed to revolutionize automotive consulting. Unlike static chatbots, it utilizes autonomous web tools to search the live internet for real-time global vehicle data, prices, and trends. The system features a unique "Personality Engine" that blends expert advice with humor and wit to drive high user engagement. Additionally, it implements Persistent Long-Term Memory, allowing the AI to remember user preferences and past conversations across sessions, creating a truly personalized, human-like, and addictive user experience.
+Overview: "carAstra" is a voice-activated Agentic AI designed to revolutionize automotive consulting. Unlike static chatbots, it utilizes autonomous web tools to search the live internet for real-time global vehicle data, prices, and trends. The system features a unique "Personality Engine" that blends expert advice with humor and wit to drive high user engagement. Additionally, it implements Persistent Long-Term Memory, allowing the AI to remember user preferences and past conversations across sessions, creating a truly personalized, human-like, and addictive user experience.
 ## Reason for picking up this project
 
-Expain how this project is aligned with this course content.
 Prompting: I use advanced system prompts to define the "Global Concierge" persona, enforcing strict behavioral constraints (like "never guess prices") while injecting a witty, addictive personality into the AI.
 
 Structured Output: All internal data flows through strict Pydantic models (JSON schema) to ensure that complex search parameters and conversation states are passed cleanly between nodes without errors.
@@ -46,14 +26,12 @@ Tool Calling & MCP: The model autonomously decides when to trigger the web_searc
 
 LangGraph (State, Nodes, Graph): The entire application is built on a StateGraph with specific nodes for reasoning and execution, managing the cyclic flow of conversation and maintaining long-term memory across sessions.
 
-Here is the concise, 3-4 line version:
+parallelization:I implemented parallelization specifically for vehicle comparisons, where the graph splits into two simultaneous web search workers to fetch data for both cars at the exact same time, significantly reducing the total latency.
 
-chose this project to go beyond static chatbots and build a humorous, active Voice-AI that actually "thinks" and searches the live web. My main goal was to prove that LangGraph is the future of voice assistants. I wanted to demonstrate that graph-based agents handle complex reasoning and memory much better than old linear models. Although this is just a prototype, it successfully provided a strong foundation for what intelligent, voice-controlled systems can become in the future
+
+chose this project to go beyond static chatbots and build a humorous, active Voice-AI that actually "thinks" and searches the live web. My main goal was to prove that LangGraph is the future of voice assistants. I wanted to demonstrate that graph-based agents handle complex reasoning and memory much better than old linear models. Although this is just a prototype, it successfully provided a strong foundation for what intelligent, voice-controlled systems can become in the future.
+
 ## Plan
-
-I plan to excecute these steps to complete my project.
-
-## 🗺️ Implementation Roadmap
 
 ### Phase 1: Environment & Infrastructure Setup
 - [done] Step 1 involves initializing the project repository and defining the modular folder structure (`agents/`, `rag/`, `graph/`).
