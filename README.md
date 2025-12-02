@@ -1,5 +1,3 @@
-Template for creating and submitting MAT496 capstone project.
-
 
 -------------------------
 # Note
@@ -61,7 +59,7 @@ chose this project to go beyond static chatbots and build a humorous, active Voi
 - [done] Step 15 involves implementing the **Speech-to-Text (STT)** pipeline using Google Speech Recognition for accurate listening.
 - [done] Step 16 involves implementing the **Text-to-Speech (TTS)** pipeline using `pyttsx3` for natural voice output.
 - [done] Step 17 involves synchronizing the Voice I/O loop with the LangGraph processing speed to minimize latency.
-- [TODO]step 18 involves stopping the AI when the user starts speaking.
+- [done]step 18 involves stopping the AI when the user starts speaking.
 
   ### Phase 7: Visualization & Deployment (LangSmith)
 - [TODO] Step 19 involves creating the `langgraph.json` configuration file to define the graph entry point and dependencies.
