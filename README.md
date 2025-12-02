@@ -4,6 +4,7 @@
 
 ## Overview
 Overview: "carAstra" is a voice-activated Agentic AI designed to revolutionize automotive consulting. Unlike static chatbots, it utilizes autonomous web tools to search the live internet for real-time global vehicle data, prices, and trends. The system features a unique "Personality Engine" that blends expert advice with humor and wit to drive high user engagement. Additionally, it implements Persistent Long-Term Memory, allowing the AI to remember user preferences and past conversations across sessions, creating a truly personalized, human-like, and addictive user experience.
+
 ## Reason for picking up this project
 
 Prompting: I use advanced system prompts to define the "Global Concierge" persona, enforcing strict behavioral constraints (like "never guess prices") while injecting a witty, addictive personality into the AI.
@@ -22,7 +23,7 @@ parallelization:I implemented parallelization specifically for vehicle compariso
 
 
 chose this project to go beyond static chatbots and build a humorous, active Voice-AI that actually "thinks" and searches the live web. My main goal was to prove that LangGraph is the future of voice assistants. I wanted to demonstrate that graph-based agents handle complex reasoning and memory much better than old linear models. Although this is just a prototype, it successfully provided a strong foundation for what intelligent, voice-controlled systems can become in the future.
--------------------------
+
 # Note
 
 Each phase contains multiple steps and is developed within a single working file.
@@ -79,6 +80,7 @@ https://drive.google.com/file/d/1ERNGXvUcb6xNGhwFJBI2jfPhHiPuL3da/view?usp=shari
 
 -------------------------
 #Tracing 
+
 <img width="1869" height="998" alt="image" src="https://github.com/user-attachments/assets/e2f367e6-81e8-47d3-883e-03dcf52d8286" />
 
 
